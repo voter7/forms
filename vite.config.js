@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: basePath,
-    cssCodeSplit: false,
+    cssCodeSplit: true,
     plugins: [
       react({
         babel: {
